@@ -90,6 +90,7 @@ export const BentoGridItem = ({
       <div className={`${id === 6 && "flex justify-center"} h-full`}>
         <div className="w-full h-full absolute">
           {img && (
+            // eslint-disable-next-line @next/next/no-img-element
             <img
               src={img}
               alt={img}
@@ -103,6 +104,7 @@ export const BentoGridItem = ({
           } `}
         >
           {spareImg && (
+            // eslint-disable-next-line @next/next/no-img-element
             <img
               src={spareImg}
               alt={spareImg}
